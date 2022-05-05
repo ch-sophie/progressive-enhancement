@@ -1,0 +1,135 @@
+body {
+    color:rgb(1, 22, 75);
+    text-align: justify;
+    font-family: serif;
+    background-color: -webkit-linear-gradient(90deg, rgb(58, 155, 243), rgb(125, 116, 228));
+    background: linear-gradient(90deg, rgb(58, 155, 243), rgb(125, 116, 228));
+    ;
+    /* background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+    background-size: cover; */
+
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    word-spacing: 10px;
+    max-width: 90%;
+}
+/* background-image: url ("link"); */
+
+/* parent > child selector */
+header > h1 {
+    background-color: rgb(255, 230, 0);
+}
+
+section {
+    display:flex;
+    margin-top: 50px;
+}
+ul {
+    margin-top: 20px;
+}
+
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+a:visited {
+    color: coral;
+    text-decoration: none;
+}
+a:hover {
+    color:blueviolet;
+    text-decoration: none;
+}
+a:active {
+    color:red;
+    text-decoration: none;
+}
+
+.image1 {
+    width: 40%;
+    /* float: right;
+    margin-top: 50px; */
+}
+
+.paragraph1 {
+    text-indent: 40px;
+}
+
+.paragraph {
+    text-indent: 40px;
+}
+
+.Alan{
+    text-align: end;
+}
+
+.quote1 {
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 160%;
+    background-color: rgb(208, 205, 205);
+    border-left: 3px groove firebrick;
+    padding-left: 30px;
+}
+
+.interview1 {
+    border-left: 2px solid yellowgreen;
+}
+
+.interview2 {
+    border-left: 2px solid orange;
+}
+
+.word1 {
+    text-transform: capitalize;
+    color: green;
+}
+.word2 {
+    text-transform: capitalize;
+    color: red;
+}
+
+table {
+    border: 3px double darkblue;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.row1 {
+    background-color: rgb(231, 239, 245);
+}
+.row2 {
+    background-color: grey;
+}
+
+
+/* @media screen and (max-width:300px) {
+    body {
+        background-color: red;
+        width: 100%;
+    }
+ }
+ 
+ @media screen and (max-width:768px) {
+     body {
+         background-color: green;
+     }
+ 
+ }
+ 
+ @media screen and (min-width:768px) {
+     body {
+         background-color: blue;
+     }
+ } */
+ 
+ 
