@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right; 
     background-size: cover; */
+    /* background-image: url ("link"); */
 
     font-family: 'Open Sans', sans-serif;
     margin-left: 50px;
@@ -17,8 +18,8 @@ body {
     margin-bottom: 50px;
     word-spacing: 10px;
     max-width: 90%;
+
 }
-/* background-image: url ("link"); */
 
 /* parent > child selector */
 header > h1 {
@@ -27,8 +28,34 @@ header > h1 {
 
 section {
     display:flex;
-    margin-top: 50px;
+    margin-top: 50px; 
+    justify-content: left; 
 }
+
+.list1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/bien.png?token=GHSAT0AAAAAABUFMFIT5JCR2EZPV5H4NV3MYTY5FZA");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 60px;
+    }
+
+.list2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/mal.png?token=GHSAT0AAAAAABUFMFITTRXADP5O32F4YPXWYTY6OOA");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+/* padding: top right bottom left; */
+.list3 {
+    padding: 20px 0 40px;
+    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/chat.png?token=GHSAT0AAAAAABUFMFITZPZ4ZPOLJMKESTTOYTY6Q5A");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 ul {
     margin-top: 20px;
 }
@@ -51,9 +78,7 @@ a:active {
 }
 
 .image1 {
-    width: 40%;
-    /* float: right;
-    margin-top: 50px; */
+    width: 30%;
 }
 
 .paragraph1 {
