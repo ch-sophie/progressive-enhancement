@@ -35,23 +35,24 @@ section {
 .list1 {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/bien.png?token=GHSAT0AAAAAABUFMFIT5JCR2EZPV5H4NV3MYTY5FZA");
+    background-image: url("bien.png");
     background-repeat: no-repeat;
     background-position: right;
-    padding-right: 60px;
+    padding-right: 50px;
+    
     }
 
 .list2 {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/mal.png?token=GHSAT0AAAAAABUFMFITTRXADP5O32F4YPXWYTY6OOA");
-    background-repeat:no-repeat;
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
     background-position: right;
 }
 /* padding: top right bottom left; */
 .list3 {
     padding: 20px 0 40px;
-    background-image: url("https://raw.githubusercontent.com/becodeorg/Swartz-6/main/1.The-Field/8.Html-CSS/progressive-enhancement/chat.png?token=GHSAT0AAAAAABUFMFITZPZ4ZPOLJMKESTTOYTY6Q5A");
+    background-image: url("chat.png");
     background-repeat: no-repeat;
     background-position: right;
 }
